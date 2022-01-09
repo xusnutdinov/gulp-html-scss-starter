@@ -1,0 +1,15 @@
+@use "sass:math";
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+}
+
+{{#shapes}}
+.icon-{{base}} {
+  width: math.div({{width.inner}}, {{height.inner}}) * 1em;
+  font-size: math.div({{height.inner}}, 100) * 1rem;
+}
+{{/shapes}}

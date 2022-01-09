@@ -1,0 +1,37 @@
+/* Modal */
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+  visibility: hidden;
+  background-color: rgba(var(--color-black), 0.85);
+  opacity: 0;
+  transition: opacity 0.3s, visibility 0.3s;
+
+  &__content {
+    position: relative;
+    width: 100%;
+    max-width: 320px;
+    height: 320px;
+    background-color: var(--color-white);
+  }
+
+  &__close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+
+  &--active {
+    visibility: visible;
+    opacity: 1;
+  }
+}

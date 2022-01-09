@@ -1,0 +1,14 @@
+build
+node_modules
+.vscode
+*.zip
+*.rar
+.DS_Store
+.idea
+Thumbs.db
+*.log
+npm-debug.*
+*.pdf
+*.psd
+*.ai
+*.fig

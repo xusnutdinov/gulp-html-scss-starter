@@ -1,0 +1,81 @@
+// ==========
+// FONT-FACE
+// ==========
+
+@mixin font-face($font-name, $font-src, $font-style, $font-weight) {
+  @font-face {
+    font-family: "#{$font-name}";
+    font-style: $font-style;
+    font-weight: $font-weight;
+    src:
+      url("../fonts/#{$font-src}.woff2") format("woff2"),
+      url("../fonts/#{$font-src}.woff") format("woff");
+    font-display: swap;
+  }
+}
+
+// ==========
+// MEDIA QUERIES
+// ==========
+
+$breakpoints: (
+  "phone": 320px,
+  "wide-phone": 480px,
+  "tablet": 768px,
+  "laptop": 992px,
+  "desktop": 1200px,
+  "huge-desktop": 1400px,
+);
+
+@mixin media($width, $type: max) {
+  @if map_has_key($breakpoints, $width) {
+    $width: map_get($breakpoints, $width);
+
+    @if $type == max {
+      $width: $width - 0.02px;
+    }
+
+    @media only screen and (#{$type}-width: $width) {
+      @content;
+    }
+  }
+}
+
+// ==========
+// CENTER BLOCK
+// ==========
+
+@mixin margin-auto() {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@mixin center() {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin center-x() {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@mixin center-y() {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+// ==========
+// DISPLAY FLEX
+// ==========
+
+@mixin flex($direction: row, $align-items: stretch, $justify: flex-start) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align-items;
+  justify-content: $justify;
+}

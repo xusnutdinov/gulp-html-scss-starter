@@ -1,0 +1,28 @@
+/* Variables */
+
+:root {
+  // Fonts
+  --font-primary: "Roboto", sans-serif;
+  --font-secondary: "Montserrat", sans-serif;
+
+  // Colors
+  --color-white: #fff;
+  --color-black: #000;
+
+  // Properties
+  --transition: 0.3s ease-out;
+
+  // Sizes
+  --body-font-size: 16px;
+  --body-font-wight: 400;
+  --body-line-height: 1.25;
+}
+
+@mixin body {
+  font-family: var(--font-primary);
+  font-size: var(--body-font-size);
+  font-weight: var(--body-font-wight);
+  line-height: var(--body-line-height);
+  color: var(--color-black);
+  background-color: var(--color-white);
+}

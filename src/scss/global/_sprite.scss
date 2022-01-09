@@ -1,0 +1,13 @@
+@use "sass:math";
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+}
+
+.icon-placeholder-svg {
+  width: math.div(434.17, 434.17) * 1em;
+  font-size: math.div(434.17, 100) * 1rem;
+}
