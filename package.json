@@ -5,7 +5,7 @@
   "main": "gulpfile.js",
   "scripts": {
     "dev": "gulp",
-    "prod": "gulp build",
+    "prod": "gulp prod",
     "prod:html": "gulp html",
     "prod:styles": "gulp stylesProd",
     "prod:scripts": "gulp scriptsProd",
