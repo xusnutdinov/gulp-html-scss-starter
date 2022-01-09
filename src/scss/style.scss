@@ -1,14 +1,4 @@
 // ==========
-// LIBS
-// ==========
-
-// @import "./vendors/custom-bootstrap";
-// @import "../../node_modules/bootstrap/scss/bootstrap-reboot.scss";
-// @import "../../node_modules/bootstrap/scss/bootstrap-grid.scss";
-// @import "../../node_modules/owl.carousel/src/scss/owl.carousel.scss";
-// @import "../../node_modules/slick-carousel/slick/slick.scss";
-
-// ==========
 // BASE
 // ==========
 @import "./base/mixins";
@@ -17,19 +7,9 @@
 // ==========
 // GLOBAL
 // ==========
-// @import "./base/sprite";
 // @import "./global/fonts";
 @import "./global/variables";
 @import "./global/global";
-
-// ==========
-// BIG COMPONENTS
-// ==========
-
-// @import "./components/header";
-// @import "./components/footer";
-// @import "./components/form";
-// @import "./components/modals";
 
 // ==========
 // SMALL COMPONENTS
@@ -37,3 +17,10 @@
 
 // @import "./components/nav";
 // @import "./components/button";
+
+// ==========
+// BIG COMPONENTS
+// ==========
+
+// @import "./components/header";
+// @import "./components/footer";

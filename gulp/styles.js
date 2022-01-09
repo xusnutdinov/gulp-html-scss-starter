@@ -17,7 +17,7 @@ export const stylesDev = () => {
     .src(paths.src.scss)
     .pipe(sourcemaps.init())
     .pipe(plumber())
-    .pipe(scss())
+    .pipe(scss().on("error", scss.logError))
     .pipe(gulp.dest(paths.build.css))
     .pipe(
       rename({
