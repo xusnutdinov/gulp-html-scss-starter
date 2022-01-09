@@ -12,32 +12,28 @@
 
 ## Структура файлов
 
-<code>
-gulp-scss-starter
-
-├── dist
-
-├── gulp-tasks
-
-├── src
-
-│ ├── blocks
-│ ├── fonts
-│ ├── img
-│ ├── js
-│ ├── styles
-│ ├── views
-│ └── .htaccess
-├── gulpfile.babel.js
-├── webpack.config.js
-├── package.json
-├── .babelrc.js
-├── .bemrc.js
-├── .eslintrc.json
-├── .stylelintrc
-├── .stylelintignore
-└── .gitignore
-</code>
+```
+Project
+├─ dist
+├─ gulp-tasks
+├─ src
+│ ├─ blocks
+│ ├─ fonts
+│ ├─ img
+│ ├─ js
+│ ├─ styles
+│ ├─ views
+│ └─ .htaccess
+├─ gulpfile.babel.js
+├─ webpack.config.js
+├─ package.json
+├─ .babelrc.js
+├─ .bemrc.js
+├─ .eslintrc.json
+├─ .stylelintrc
+├─ .stylelintignore
+└─ .gitignore
+```
 
 - Корень папки
 
@@ -76,3 +72,7 @@ gulp-scss-starter
 - `npm run prod:misc` - Собрать файлы из misc
 - `lint:styles` - Проверить файлы SCSS на наличие ошибок. Для работы необходим плагин Stylelint
 - `lint:styles --fix` - Исправить ошибки в файлах SCSS
+
+```
+
+```
