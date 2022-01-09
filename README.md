@@ -14,25 +14,24 @@
 
 ```
 Project
-├─ dist
-├─ gulp-tasks
+├─ build
+├─ gulp
 ├─ src
-│ ├─ blocks
+│ ├─ templates
+│ ├─ scss
+│ ├─ js
 │ ├─ fonts
 │ ├─ img
-│ ├─ js
-│ ├─ styles
-│ ├─ views
-│ └─ .htaccess
-├─ gulpfile.babel.js
-├─ webpack.config.js
-├─ package.json
-├─ .babelrc.js
-├─ .bemrc.js
-├─ .eslintrc.json
+│ ├─ svg
+│ └─ misc
+├─ .babalrc
+├─ .editorconfig
+├─ .gitattributes
+├─ .gitignore
 ├─ .stylelintrc
-├─ .stylelintignore
-└─ .gitignore
+├─ gulpfile.js
+├─ package.json
+└─ package-lock.json
 ```
 
 - Корень папки
