@@ -71,7 +71,3 @@ Project
 - `npm run prod:misc` - Собрать файлы из misc
 - `lint:styles` - Проверить файлы SCSS на наличие ошибок. Для работы необходим плагин Stylelint
 - `lint:styles --fix` - Исправить ошибки в файлах SCSS
-
-```
-
-```
