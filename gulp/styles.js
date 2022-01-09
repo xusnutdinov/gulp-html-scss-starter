@@ -28,11 +28,6 @@ export const stylesDev = () => {
     .pipe(plumber.stop())
     .pipe(sourcemaps.write("."))
     .pipe(gulp.dest(paths.build.css))
-    .pipe(
-      debug({
-        title: "CSS files",
-      })
-    )
     .on("end", browserSync.reload);
 };
 
