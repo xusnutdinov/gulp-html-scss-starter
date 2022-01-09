@@ -7,7 +7,6 @@ import autoPrefixer from "gulp-autoprefixer";
 import sourcemaps from "gulp-sourcemaps";
 import mincss from "gulp-clean-css";
 import rename from "gulp-rename";
-import debug from "gulp-debug";
 import dartSass from "sass";
 import groupmedia from "gulp-group-css-media-queries";
 
