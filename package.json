@@ -1,7 +1,7 @@
 {
   "name": "gulp-html-scss-starter",
   "version": "1.0.0",
-  "description": "Frontend development",
+  "description": "Gulp starter (HTML, SCSS, JS)",
   "main": "gulpfile.js",
   "scripts": {
     "dev": "gulp",
@@ -17,15 +17,24 @@
     "lint:styles --fix": "stylelint \"./src/scss/**/*.scss\" --fix"
   },
   "keywords": [
+    "javascript",
+    "stylelint",
+    "css",
     "gulp",
-    "sass",
-    "pug",
-    "linters",
-    "js"
+    "html",
+    "babel",
+    "js",
+    "eslint",
+    "es6",
+    "scss",
+    "starter-template",
+    "starter-kit",
+    "editorconfig",
+    "starter-project"
   ],
   "type": "module",
   "author": "Rinat Khusnutdinov",
-  "license": "WTFPL",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.16.7",
     "@babel/preset-env": "^7.16.7",
