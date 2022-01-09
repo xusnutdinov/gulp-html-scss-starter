@@ -37,3 +37,15 @@
 - Папка `gulp` - папка с тасками gulp
 
 ## Команды
+
+- `npm run dev` - Запуск для разработки
+- `npm run prod` - Полная сборка проекта
+- `npm run prod:html` - Собрать HTML-файлы
+- `npm run prod:styles` - Скомпилировать файлы SCSS
+- `npm run prod:scripts` - Скомпилировать файлы JS
+- `npm run prod:fonts` - Собарть шрифты
+- `npm run prod:images` - Собрать изображения
+- `npm run prod:svg` - Собрать svg спрайт
+- `npm run prod:misc` - Собрать файлы из misc
+- `lint:styles` - Проверить файлы SCSS на наличие ошибок. Для работы необходим плагин Stylelint
+- `lint:styles --fix` - Исправить ошибки в файлах SCSS
