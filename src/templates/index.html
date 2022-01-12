@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html lang="ru">
 
-@@include("base/head.html", {
+@@include("base/_head.html", {
 "title": "Главная страница сайта"
 })
 
 <body class="page">
   <div class="page__wrapper">
 
-    @@include("components/header.html")
+    @@include("components/_header.html")
     <main class="main">
     </main>
-    @@include("components/footer.html")
+    @@include("components/_footer.html")
 
   </div>
-  <!-- @@include("components/modals.html") -->
-  <script src="js/main.js"></script>
+  <script src="js/main.min.js"></script>
 </body>
 
 </html>
